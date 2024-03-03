@@ -59,6 +59,11 @@ Suppose we have two tenants, Tenant A and Tenant B, each with their own database
 
 With the above setup, when a request is made with `orgId: tenantB`, the application will use the database configuration specified in `abc2.dbconfig`. But if not send any `orgId`then it will take the `default` configurations.
 
+## Below video shows the structure of the project with the basic understanding of how it actually works :
+
+https://github.com/mahaveer3103/multi-tenant-springboot/assets/112773191/04f226d5-077f-4b49-b0ac-ee0da4e572b4
+
+
 This setup enables seamless multi-tenancy support within the Spring Boot application, allowing different tenants to interact with their respective databases securely and efficiently.
 
 Feel free to explore and contribute to this repository for further enhancements and customization options.
