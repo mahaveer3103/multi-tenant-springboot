@@ -1,0 +1,6 @@
+name=default
+datasource.url=jdbc:mysql://localhost:3306/db_1
+datasource.username=root
+datasource.password=root
+datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
